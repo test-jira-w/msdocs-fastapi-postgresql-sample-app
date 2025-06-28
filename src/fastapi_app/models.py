@@ -10,6 +10,7 @@ from sqlmodel import Field, SQLModel, create_engine
 logger = logging.getLogger("app")
 logger.setLevel(logging.INFO)
 
+# test
 sql_url = ""
 if os.getenv("WEBSITE_HOSTNAME"):
     logger.info("Connecting to Azure PostgreSQL Flexible server based on AZURE_POSTGRESQL_CONNECTIONSTRING...")
